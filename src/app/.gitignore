@@ -1,0 +1,15 @@
+echo "node_modules/
+.next/
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+prisma/dev.db
+prisma/migrations/
+.DS_Store
+coverage/
+out/
+dist/
+.vercel/
+" > .gitignore
